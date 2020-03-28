@@ -1,0 +1,27 @@
+.top{
+  max-width: 100%;
+  width: 50%;
+
+  border-width: 0;
+  border-left: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+}
+img{
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+.copy{
+  font-size: 1.25rem;
+  float: right;
+}
+
+@media (max-width: 720px) {
+  .top{
+    width: 100%;
+    transform: translateX(0);
+  }
+}
+a:hover{
+  text-decoration: none;
+}
